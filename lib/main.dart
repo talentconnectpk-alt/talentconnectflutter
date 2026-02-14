@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:talentconnect/freelancer/booking.dart';
-import 'package:talentconnect/freelancer/chatfreelancer.dart';
-import 'package:talentconnect/freelancer/feedbackrating.dart';
-import 'package:talentconnect/freelancer/freelancerportfolio.dart';
 import 'package:talentconnect/freelancer/homefreelancer.dart';
 import 'package:talentconnect/freelancer/login.dart';
-import 'package:talentconnect/freelancer/payment.dart';
+import 'package:talentconnect/freelancer/mainhome.dart';
 import 'package:talentconnect/freelancer/register.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -38,7 +36,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home:HomePage()
+      home:talentfreelancerhome()
     );
   }
 }
