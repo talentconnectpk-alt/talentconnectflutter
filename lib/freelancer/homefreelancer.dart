@@ -332,7 +332,7 @@ class _DashboardFrontPageState extends State<DashboardFrontPage> with SingleTick
               subtitle: '4.9 Rating',
               icon: Icons.star_rounded,
               gradientColors: const [Color(0xFFD97706), Color(0xFFEA580C)],
-              onTap: () => _handleNavigation('Feedback', FreelancerReviewsPage()),
+              onTap: () => _handleNavigation('Feedback', Freelancerfeedback()),
             ),
             _ActionCard(
               title: 'Portfolio',
